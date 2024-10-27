@@ -19,10 +19,9 @@ The project directory contains the following files and folders:
 ├── SUSHI                      # Folder for SUSHI related data<br>
 ├── volatility                  # Folder for volatility data<br>
 ├── .gitignore                 # Git ignore file<br>
-├── api_key.env                # Environment file for API keys<br>
+├── api_key.env                # Environment file for API keys (create this file with your API keys)<br>
 ├── backtesting_program.py      # Script for backtesting trading strategies<br>
 ├── data_prepare.py            # Script for preparing data<br>
-├── flash_news.gitignore       # Git ignore file for flash_news<br>
 ├── flash_news.html            # HTML export of the Jupyter notebook<br>
 ├── flash_news.ipynb           # Jupyter notebook for the project<br>
 ├── get_news.py                # Script for collecting news data<br>
