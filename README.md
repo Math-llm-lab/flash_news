@@ -8,27 +8,26 @@ The **Flash News Trading Strategy** is a Python-based project aimed at leveragin
 
 The project directory contains the following files and folders:
 
-├── .ipynb_checkpoints         # Jupyter notebook checkpoints
-├── __pycache__                # Python bytecode cache
-├── AAVE                       # Folder for AAVE related data
-├── aave_lending               # Folder containing AAVE lending data
-├── AVAX                       # Folder for AVAX related data
-├── binance_trading            # Folder containing Binance trading data
-├── BTC                        # Folder for BTC related data
-├── ETH                        # Folder for ETH related data
-├── LINK                       # Folder for LINK related data
-├── SUSHI                      # Folder for SUSHI related data
-├── volatility                  # Folder for volatility data
-├── .gitignore                 # Git ignore file
-├── api_key.env                # Environment file for API keys
-├── backtesting_program.py      # Script for backtesting trading strategies
-├── data_prepare.py            # Script for preparing data
-├── flash_news.gitignore       # Git ignore file for flash_news
-├── flash_news.html            # HTML export of the Jupyter notebook
-├── flash_news.ipynb           # Jupyter notebook for the project
-├── get_news.py                # Script for collecting news data
-├── README.md                  # Project documentation
-└── requirements.txt           # List of project dependencies
+<br>
+├── AAVE                       # Folder for AAVE related data<br>
+├── aave_lending               # Folder containing AAVE lending data<br>
+├── AVAX                       # Folder for AVAX related data<br>
+├── binance_trading            # Folder containing Binance trading data<br>
+├── BTC                        # Folder for BTC related data<br>
+├── ETH                        # Folder for ETH related data<br>
+├── LINK                       # Folder for LINK related data<br>
+├── SUSHI                      # Folder for SUSHI related data<br>
+├── volatility                  # Folder for volatility data<br>
+├── .gitignore                 # Git ignore file<br>
+├── api_key.env                # Environment file for API keys<br>
+├── backtesting_program.py      # Script for backtesting trading strategies<br>
+├── data_prepare.py            # Script for preparing data<br>
+├── flash_news.gitignore       # Git ignore file for flash_news<br>
+├── flash_news.html            # HTML export of the Jupyter notebook<br>
+├── flash_news.ipynb           # Jupyter notebook for the project<br>
+├── get_news.py                # Script for collecting news data<br>
+├── README.md                  # Project documentation<br>
+└── requirements.txt           # List of project dependencies<br>
 
 ## Steps Involved
 
