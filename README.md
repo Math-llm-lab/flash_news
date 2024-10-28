@@ -45,7 +45,5 @@ The `backtesting_program.py` file contains the core logic for the trading strate
 ### Conclusion
 The Flash News Trading Strategy demonstrates the potential for innovative real-time trading algorithms that can react to market dynamics. The findings from this project can lay the groundwork for the development of agents such as **Atlas**, **Ganesh**, or **Apollo** that enhance trading efficiency.
 
-https://www.linkedin.com/in/bobyliakcom/
-
 ## License
 This project is licensed under the MIT License.
