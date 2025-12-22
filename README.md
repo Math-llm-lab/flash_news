@@ -1,10 +1,10 @@
 # Flash News Demo (NDA-safe excerpt)
 
-This repository is a **small, public demo** extracted from a larger private trading / data-quality system (the full system is under NDA). The goal of this repo is to show **Python engineering quality**, **data validation**, and an **LLM labeling/evaluation loop** in a way a recruiter can run locally in minutes.
+This repository is a **small, public demo** extracted from a larger private trading / data-quality system (the full system is under NDA). The goal of this repo is to demonstrate **Python engineering quality**, **data validation**, and an **LLM labeling/evaluation loop** in a way a recruiter can run locally in minutes.
 
 What it does
 - Fetches crypto-related articles from **NewsAPI** for a set of tokens.
-- (Optional) Labels each article using an LLM into a tiny taxonomy:
+- (Optional) Labels each article using an LLM into a small taxonomy:
   - `historical`: `True/False` (is the article mostly about past events?)
   - `sentiment`: one of `significant rise | rise | neutral | fall | significant fall`
 - Writes **inspectable artifacts** (CSV + JSON) under `data/news/<TOKEN>/`.
