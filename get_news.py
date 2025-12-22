@@ -70,7 +70,7 @@ class CryptoNewsAnalyzer:
         keywords = f"{token} OR {token.lower()}"
         if extended_name.lower() != token.lower():  # Only include extended name if different
             keywords += f" OR {extended_name} OR {extended_name.lower()}"
-        keywords += "OR crypto OR cryptocurrency OR blockchain"
+        keywords += " OR crypto OR cryptocurrency OR blockchain"
         encoded_keywords = urllib.parse.quote(keywords.strip())
 
         # # Define date range
@@ -339,3 +339,4 @@ if __name__ == "__main__":
 
     # Further analyze the news data to determine significant rise/fall events
     news_analyzer.analyze_news()
+
