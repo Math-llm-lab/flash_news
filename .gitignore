@@ -1,5 +1,20 @@
+# secrets / local env
+.env
 api_key.env
 
+# virtualenv
+.venv/
+venv/
+
+# local outputs
+data/
+
+# caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# misc
 *.tmp
 *.log
-__pycache__/
