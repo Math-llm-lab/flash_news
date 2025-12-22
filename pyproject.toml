@@ -1,5 +1,26 @@
 [tool.ruff]
 line-length = 100
+target-version = "py310"
+extend-exclude = [
+  "flash_news.ipynb",
+  "flash_news.html",
+  "Flash News Presentation.pdf",
+  "backtesting_program.py",
+  "data_prepare.py",
+]
 
 [tool.ruff.lint]
 select = ["E","F","I","B"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+no_implicit_optional = true
+check_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
