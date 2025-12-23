@@ -352,7 +352,7 @@ def _parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     )
     p.add_argument("--out-dir", default="data/news", help="Output directory")
     p.add_argument("--language", default="en", help="Language code")
-    p.add_argument("--label", action="store_true", help="Run LLM labeling (requires OPENAI_API_KEY)")
+    p.add_argument("--label", action="store_true", help="Run LLM labeling (needs OPENAI_API_KEY)")
     p.add_argument("--openai-model", default=os.getenv("OPENAI_MODEL", "gpt-4o-mini"))
     p.add_argument("--log-level", default="INFO", help="DEBUG, INFO, WARNING...")
     return p.parse_args(argv)
